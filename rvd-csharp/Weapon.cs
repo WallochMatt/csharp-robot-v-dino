@@ -19,7 +19,5 @@ namespace rvd_csharp
             this.name = name;
             this.attackPower = attackPower;
         }
-
-        //methods
     }
 }

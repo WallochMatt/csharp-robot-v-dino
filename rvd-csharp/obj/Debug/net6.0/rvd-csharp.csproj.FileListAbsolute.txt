@@ -1,0 +1,15 @@
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\bin\Debug\net6.0\rvd-csharp.exe
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\bin\Debug\net6.0\rvd-csharp.deps.json
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\bin\Debug\net6.0\rvd-csharp.runtimeconfig.json
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\bin\Debug\net6.0\rvd-csharp.dll
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\bin\Debug\net6.0\rvd-csharp.pdb
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.csproj.AssemblyReference.cache
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.AssemblyInfoInputs.cache
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.AssemblyInfo.cs
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.csproj.CoreCompileInputs.cache
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.dll
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\refint\rvd-csharp.dll
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.pdb
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\rvd-csharp.genruntimeconfig.cache
+C:\Users\skati\Documents\Continued_Learning\Day_2\csharp-robot-v-dino\rvd-csharp\obj\Debug\net6.0\ref\rvd-csharp.dll

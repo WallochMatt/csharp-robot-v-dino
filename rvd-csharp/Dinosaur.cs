@@ -22,5 +22,11 @@ namespace rvd_csharp
             health = 100;
             this.attackPower = attackPower;
         }
+
+        //methods
+        public void attack(Robot robot)
+        {
+            robot.health = robot.health - attackPower;
+        }
     }
 }
