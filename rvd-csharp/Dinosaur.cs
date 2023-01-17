@@ -9,11 +9,11 @@ namespace rvd_csharp
     internal class Dinosaur
     {
         //members
-        string name;
+        public string name;
 
-        int health;
+        public int health;
 
-        int attackPower;
+        public int attackPower;
 
         //constructor
         public Dinosaur(string name, int attackPower)

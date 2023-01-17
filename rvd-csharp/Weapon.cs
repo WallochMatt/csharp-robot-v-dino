@@ -9,9 +9,9 @@ namespace rvd_csharp
     internal class Weapon
     {
         //members
-        string name;
+        public string name;
 
-        int attackPower;
+        public int attackPower;
 
         //constructor
         public Weapon(string name, int attackPower)

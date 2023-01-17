@@ -22,5 +22,11 @@ namespace rvd_csharp
             health = 100;
             this.activeWeapon = activeWeapon;
         }
+
+        //methods
+        public void attack(Dinosaur dinosaur)
+        {
+            dinosaur.health = dinosaur.health - activeWeapon.attackPower;
+        }
     }
 }
