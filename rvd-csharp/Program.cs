@@ -2,6 +2,8 @@
 
 using rvd_csharp;
 
+//Change the argument values to create your own objects! Ex: Dinosaur("Here", 10);
+
 Dinosaur gawr = new Dinosaur("Gurrrra", 25);
 
 Weapon laser = new Weapon("Laser Beam", 20);

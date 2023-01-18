@@ -23,7 +23,18 @@ namespace rvd_csharp
         //methods
        public void runGame()
         {
+            greeting();
             battlePhase(robot, dinosaur);
+        }
+
+        public void greeting()
+        {
+            Console.WriteLine("Welcome to Dinosaur Laser Fight!");
+            Console.ReadLine();
+
+            Console.WriteLine("Feel free to instatiate your own objects in the Program.cs file! \n");
+            Console.ReadLine();
+
         }
 
         public void battlePhase(Robot robot, Dinosaur dinosaur) 
@@ -41,8 +52,8 @@ namespace rvd_csharp
                 {
                     dinosaur.attack(robot);
                     Console.WriteLine($"{dinosaur.name} attacks! \n" +
-                    $"{robot.name} took {dinosaur.attackPower} damage! \n" +
-                    $"{robot.name} has {robot.health} health remaining!");
+                        $"{robot.name} took {dinosaur.attackPower} damage! \n" +
+                        $"{robot.name} has {robot.health} health remaining!");
 
                     Console.ReadLine();
                 }
