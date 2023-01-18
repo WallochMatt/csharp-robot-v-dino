@@ -23,10 +23,42 @@ namespace rvd_csharp
         //methods
        public void runGame()
         {
-            Console.WriteLine($"Robot name: {robot.name} " +
-                $"Robot weapon: {robot.activeWeapon.name}" +
-                $"Dinosaur name: {dinosaur.name}");
-            Console.ReadLine();
+            battlePhase(robot, dinosaur);
+        }
+
+        public void battlePhase(Robot robot, Dinosaur dinosaur) 
+        {
+            while(robot.health > 0 && dinosaur.health > 0)
+            {
+                robot.attack(dinosaur);
+                Console.WriteLine($"{robot.name} attacks with it's {robot.activeWeapon.name}! \n" +
+                    $"{dinosaur.name} took {robot.activeWeapon.attackPower} damage! \n" +
+                    $"{dinosaur.name} has {dinosaur.health} health remaining!");
+
+                Console.ReadLine();
+
+                if(dinosaur.health != 0 )
+                {
+                    dinosaur.attack(robot);
+                    Console.WriteLine($"{dinosaur.name} attacks! \n" +
+                    $"{robot.name} took {dinosaur.attackPower} damage! \n" +
+                    $"{robot.name} has {robot.health} health remaining!");
+
+                    Console.ReadLine();
+                }
+
+                if(dinosaur.health <= 0) 
+                {
+                    Console.WriteLine($"{robot.name} wins!");
+                    Console.ReadLine();
+                }
+
+                if(robot.health <= 0)
+                {
+                    Console.WriteLine($"{dinosaur.name} wins!");
+                    Console.ReadLine();
+                }
+            }
         }
     }
 }
